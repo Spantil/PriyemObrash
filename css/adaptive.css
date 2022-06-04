@@ -1,0 +1,16 @@
+@media screen and (max-width: 425px) {
+    .card {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+  
+
+@media screen and (max-width: 425px) {
+    .row {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
