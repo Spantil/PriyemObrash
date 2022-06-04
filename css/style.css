@@ -1,0 +1,35 @@
+p {
+    text-indent: 1;
+    font-size: 11px;
+}
+
+textarea {
+    width: 90%; 
+    height: 200px; 
+    resize: none; 
+} 
+
+.animatik {
+    background: white;
+    box-shadow: 0 1px 5px 0px rgba(0,0,0,.1);
+    transition: 1s box-shadow;
+  }
+  
+  .animatik:hover {
+    box-shadow: 0 1px 20px 20px rgba(0,0,0,.1);
+  }
+  
+  .animatik:hover::before, .animatik:hover::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: #FDA8CF;
+    z-index: -1;
+
+  }
+  
+  .animatik:hover:after {
+    background: black;
+  }
